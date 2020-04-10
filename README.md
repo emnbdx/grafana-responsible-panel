@@ -62,7 +62,6 @@ Pictures we'll display like that
 |1|Bob|Billie|Ryan|Bob|Billie|Billie|Billie
 |2|Ryan|Bob|...
 |...|
-||
 
 You can adjust this by using offset (if somebody is missing).
 Offset available value depends on database size for this on 0 or 3 do nothing but with 1 pictures display like that
@@ -72,7 +71,6 @@ Offset available value depends on database size for this on 0 or 3 do nothing bu
 |1|Billie|Ryan|Bob|Billie|Ryan|Ryan|Ryan
 |2|Bob|Billie|...
 |...|
-||
 
 and like that with 2
 
@@ -81,4 +79,3 @@ and like that with 2
 |1|Ryan|Bob|Billie|Ryan|Bob|Bob|Bob
 |2|Billie|Ryan|...
 |...|
-||

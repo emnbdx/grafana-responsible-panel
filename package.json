@@ -1,20 +1,16 @@
 {
-  "name": "simple-react-panel",
+  "name": "grafana-responsible-panel",
   "version": "1.0.0",
-  "description": "Simple React Panel",
+  "description": "This panel display responsible of monitoring photo",
   "scripts": {
     "build": "grafana-toolkit plugin:build",
     "test": "grafana-toolkit plugin:test",
     "dev": "grafana-toolkit plugin:dev",
     "watch": "grafana-toolkit plugin:dev --watch"
   },
-  "repository": "github:grafana/simple-react-panel",
-  "author": "Grafana Labs <team@grafana.com> (https://grafana.com)",
+  "repository": "github:emnbdx/grafana-responsible-panel",
+  "author": "Eddy MONTUS",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/grafana/simple-react-panel/issues",
-    "email": "plugins@grafana.com"
-  },
   "devDependencies": {
     "@grafana/data": "next",
     "@grafana/toolkit": "next",
@@ -24,6 +20,6 @@
     "@babel/preset-env": "7.9.0"
   },
   "engines": {
-    "node": ">=12 <13"
+    "node": ">=12"
   }
 }

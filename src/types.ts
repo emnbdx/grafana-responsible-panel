@@ -1,7 +1,11 @@
-export interface SimpleOptions {
-  text: string;
+import defaultDb from './db.json';
+
+export interface Option {
+  db: object,
+  offset: number
 }
 
-export const defaults: SimpleOptions = {
-  text: 'The default text!',
+export const defaults: Option = {
+  db: defaultDb,
+  offset: 0
 };

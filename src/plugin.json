@@ -1,12 +1,12 @@
 {
   "type": "panel",
-  "name": "Simple Panel",
-  "id": "myorgid-simple-panel",
+  "name": "Responsible Panel",
+  "id": "helloasso-responsible-panel",
 
   "info": {
-    "description": "Simple React Panel",
+    "description": "This panel display responsible of monitoring's photo",
     "author": {
-      "name": "Your Name"
+      "name": "Eddy MONTUS"
     },
     "keywords": ["Simple"],
     "logos": {
@@ -14,8 +14,8 @@
       "large": "img/logo.svg"
     },
     "links": [
-      {"name": "Website", "url": "https://github.com/grafana/simple-react-panel"},
-      {"name": "License", "url": "https://github.com/grafana/simple-react-panel/blob/master/LICENSE"}
+      {"name": "Website", "url": "https://github.com/emnbdx/grafana-responsible-panel"},
+      {"name": "License", "url": "https://github.com/emnbdx/grafana-responsible-panel/blob/master/LICENSE"}
     ],
     "screenshots": [],
     "version": "%VERSION%",

@@ -31,9 +31,11 @@ To build the plugin run:
 yarn build
 `
 
-## Usefull
+## Configuration
 
-Sample database is provided and can be found in src/db.json
+This panel display different picture according to current working day.
+To clarify with this sample db (available in src/db.json)
+
 ```
 {
     "responsibles" : [
@@ -53,4 +55,30 @@ Sample database is provided and can be found in src/db.json
 }
 ```
 
+Pictures we'll display like that
 
+|WEEK| MONDAY | TUESDAY | WEDNESDAY | THURSDAY | FRIDAY | SATURDAY | SUNDAY |
+|-|-|-|-|-|-|-|-|
+|1|Bob|Billie|Ryan|Bob|Billie|Billie|Billie
+|2|Ryan|Bob|...
+|...|
+||
+
+You can adjust this by using offset (if somebody is missing).
+Offset available value depends on database size for this on 0 or 3 do nothing but with 1 pictures display like that
+
+|WEEK| MONDAY | TUESDAY | WEDNESDAY | THURSDAY | FRIDAY | SATURDAY | SUNDAY |
+|-|-|-|-|-|-|-|-|
+|1|Billie|Ryan|Bob|Billie|Ryan|Ryan|Ryan
+|2|Bob|Billie|...
+|...|
+||
+
+and like that with 2
+
+|WEEK| MONDAY | TUESDAY | WEDNESDAY | THURSDAY | FRIDAY | SATURDAY | SUNDAY |
+|-|-|-|-|-|-|-|-|
+|1|Ryan|Bob|Billie|Ryan|Bob|Bob|Bob
+|2|Billie|Ryan|...
+|...|
+||

@@ -18,7 +18,12 @@ export class OptionEditor extends PureComponent<PanelEditorProps<Option>> {
       <div className="section gf-form-group">
         <div className="gf-form">
           <span className="gf-form-label width-7">Database</span>
-          <textarea className="gf-form-input width-25 ng-valid ng-empty ng-dirty ng-valid-parse ng-touched" rows={10} onChange={this.onDbChanged} placeholder="Db content in JSON, look at README for format">
+          <textarea
+            className="gf-form-input width-25 ng-valid ng-empty ng-dirty ng-valid-parse ng-touched"
+            rows={10}
+            onChange={this.onDbChanged}
+            placeholder="Db content in JSON, look at README for format"
+          >
             {JSON.stringify(options.db) || ''}
           </textarea>
         </div>
